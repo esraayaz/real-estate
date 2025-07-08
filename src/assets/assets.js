@@ -13,6 +13,7 @@ import project_img_3 from "./project_img_3.jpg";
 import project_img_4 from "./project_img_4.jpg";
 import project_img_5 from "./project_img_5.jpg";
 import project_img_6 from "./project_img_6.jpg";
+import project_img_7 from "./project_img_7.jpg";
 import profile_img_1 from "./profile_img_1.jpg";
 import profile_img_2 from "./profile_img_2.jpg";
 import profile_img_3 from "./profile_img_3.jpg";
@@ -35,66 +36,72 @@ export const assets = {
 
 export const projectsData = [
   {
-    title: "Skyline Haven",
-    price: "$2,50,000",
-    location: "California",
+    title: "Santee",
+    price: "$3 million",
+    location: "San Diego, US",
     image: project_img_1,
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
+    title: "Santa Barbara",
+    price: "$9.5 million",
+    location: "California, US",
     image: project_img_2,
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
+    title: "Pacific Heights",
+    price: "$15 million",
+    location: "San Francisco, US",
     image: project_img_3,
   },
   {
-    title: "Central Square",
-    price: "$2,50,000",
-    location: "Los Angeles",
+    title: "Quartiere Venezia",
+    price: "$1.5 million",
+    location: "Livorno, Italy",
     image: project_img_4,
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
+    title: "Foz do Douro",
+    price: "$3 million",
+    location: "Porto, Portugal",
     image: project_img_5,
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
+    title: "Pedralbes",
+    price: "$1.2 million",
+    location: "Barcelona, Spain",
     image: project_img_6,
+  },
+  {
+    title: "Richmond",
+    price: "$9.5 million",
+    location: "London, UK",
+    image: project_img_7,
   },
 ];
 
 export const testimonialsData = [
   {
-    name: "Donald Jackman",
-    title: "Marketing Manager",
+    name: "Charlotte Ashford",
+    title: "CEO",
     image: profile_img_1,
-    alt: "Portrait of Donald Jackman",
+    alt: "Portrait of Charlotte Ashford",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "Working with E-Estate was an absolute pleasure! Their team not only found me a home that matched every item on my wishlist but also negotiated terms that exceeded my expectations. Their local expertise and personalized approach made the entire process seamless.",
   },
   {
-    name: "Richard Nelson",
-    title: "UI/UX Designer",
+    name: "Richard Prescott",
+    title: "Investor",
     image: profile_img_2,
-    alt: "Portrait of Richard Nelson",
+    alt: "Portrait of Richard Prescott",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "I have worked with many realtors over the years, but E-Estate stands out. They listened intently to my needs, provided insightful market analysis, and secured my dream property at a fantastic value. Their dedication and responsiveness set a new standard for excellence in real estate.",
   },
   {
-    name: "James Washington",
+    name: "Eleanor Wilson",
     title: "Co-Founder",
     image: profile_img_3,
-    alt: "Portrait of James Washington",
+    alt: "Portrait of Eleanor Wilson",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "From start to finish, E-Estate went above and beyond. As a first-time buyer, I had countless questions, and they patiently guided me through each step with clarity and professionalism. They turned what could have been a stressful experience into an exciting journey. Truly exceptional service!",
   },
 ];
