@@ -8,7 +8,7 @@ const About = () => {
       id="About"
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2">Who We Are</h1>
-      <p className=" text-gray-600 max-w-120 text-center mb-20 mt-5">
+      <p className=" sm:mb-5 text-gray-600 max-w-120 text-center mb-20 mt-5 ">
         As a leading brand in the international real estate market, we offer our
         customers high-quality residential and investment options.
       </p>
@@ -16,7 +16,7 @@ const About = () => {
         <img
           src={assets.brand_img}
           alt="brand-img"
-          className="mr-10 max-w-lg"
+          className="hidden md:block md:mt-12 mr-10 max-w-lg"
           style={{
             width: "40%",
             height: "auto",
@@ -48,7 +48,7 @@ const About = () => {
             satisfaction, and sustainable value creation, we are with you every
             step of the way.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-2 rounded-sm">
+          <button className="cursor-pointer bg-blue-600 hover:bg-sky-600 text-white px-8 py-2 rounded-sm">
             Learn More
           </button>
         </div>
