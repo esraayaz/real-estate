@@ -16,7 +16,11 @@ const About = () => {
         <img
           src={assets.brand_img}
           alt="brand-img"
-          className="mr-10 w-full rounded-sm sm:w-1/2 max-w-lg"
+          className="mr-10 max-w-lg"
+          style={{
+            width: "40%",
+            height: "auto",
+          }}
         />
         <div className="flex flex-col items-center md:items-start mt-10 text-gray-600">
           <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
@@ -44,7 +48,7 @@ const About = () => {
             satisfaction, and sustainable value creation, we are with you every
             step of the way.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+          <button className="bg-blue-600 text-white px-8 py-2 rounded-sm">
             Learn More
           </button>
         </div>
