@@ -48,7 +48,7 @@ const About = () => {
             satisfaction, and sustainable value creation, we are with you every
             step of the way.
           </p>
-          <button className="cursor-pointer bg-blue-600 hover:bg-sky-600 text-white px-8 py-2 rounded-sm">
+          <button className="cursor-pointer bg-blue-800 hover:bg-blue-600 text-white px-8 py-2 rounded-sm">
             Learn More
           </button>
         </div>
