@@ -34,7 +34,7 @@ const Navbar = () => {
           </a>
         </ul>
         <button className="hidden md:block bg-white/95 px-8 py-2 rounded-full hover:bg-teal-100 cursor-pointer">
-          Contact
+          <a href="#Contact">Contact</a>
         </button>
         <img
           src={assets.menu_icon}
