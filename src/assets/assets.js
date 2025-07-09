@@ -93,7 +93,7 @@ export const testimonialsData = [
     title: "Investor",
     image: profile_img_2,
     alt: "Portrait of Richard Prescott",
-    rating: 4,
+    rating: 5,
     text: "I have worked with many realtors over the years, but E-Estate stands out. They listened intently to my needs, provided insightful market analysis, and secured my dream property at a fantastic value. Their dedication and responsiveness set a new standard for excellence in real estate.",
   },
   {
