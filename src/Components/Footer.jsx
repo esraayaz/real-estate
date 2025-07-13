@@ -55,6 +55,19 @@ const Footer = () => {
       <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
         Copyright 2025 &copy; E-Estate Agency. All Right Reserved.
       </div>
+      <div className="border-gray-700 pb-6 text-center text-gray-500">
+        <p className="text-green-700">
+          Coded by
+          <a
+            href="https://www.linkedin.com/in/esraayaz/"
+            target="_blank"
+            className="text-green-600 hover:text-green-400"
+          >
+            {" "}
+            Esra Ayaz
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
